@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.scss';
 import apiCalls from './apiCalls'
 import Form from '../Form/Form'
+import ResContainer from '../ResContainer/ResContainer'
 
 class App extends Component {
   constructor() {
@@ -23,9 +24,7 @@ class App extends Component {
       <div className="App">
         <h1 className='app-title'>Turing Cafe Reservations</h1>
         <Form />
-        <div className='resy-container'>
-          
-        </div>
+        <ResContainer />
       </div>
     )
   }
