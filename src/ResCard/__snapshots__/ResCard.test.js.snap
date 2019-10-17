@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResCard should create a snapshot of ResCard 1`] = `
+<article
+  id={0}
+>
+  <h2>
+    Eduardo
+  </h2>
+  <p>
+    05/01
+  </p>
+  <p>
+    5
+  </p>
+  <p>
+    Num. of guests: 
+    2
+  </p>
+  <button
+    className="cancel-btn"
+    type="button"
+  >
+    CANCEL
+  </button>
+</article>
+`;
