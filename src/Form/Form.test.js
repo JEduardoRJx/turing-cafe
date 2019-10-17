@@ -1,17 +1,16 @@
 import React from 'react';
-import App from './App';
+import Form from './Form';
 import { shallow } from 'enzyme'
 
-describe('App', () => {
+describe('Form', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<App />)
+    wrapper = shallow(<Form />)
   });
 
-  it('should create a snapshot of App', () => {
+  it('should create a snapshot of Form', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
 })
-
