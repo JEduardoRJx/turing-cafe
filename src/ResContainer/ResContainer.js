@@ -1,10 +1,11 @@
 import React from 'react'
 import './ResContainer.scss'
+import ResCard from '../ResCard/ResCard'
 
 const ResContainer = () => {
   return (
     <section>
-    Reservation Container
+      <ResCard />
     </section>
   )
 }
