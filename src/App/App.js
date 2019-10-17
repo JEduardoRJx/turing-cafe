@@ -19,12 +19,12 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state)
+    // console.log(this.state.guests)
     return (
       <div className="App">
         <h1 className='app-title'>Turing Cafe Reservations</h1>
         <Form />
-        <ResContainer />
+        <ResContainer guests={this.state.guests} />
       </div>
     )
   }
