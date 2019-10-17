@@ -1,14 +1,27 @@
 import React from 'react'
 import './Form.scss'
 
-const Form = () => {
+const Form = ({handleForm, makeReservation}) => {
   return(
     <form>
-      <input type='text' placeholder='Name' />
-      <input type='text' placeholder='Date (MM/DD)' />
-      <input type='text' placeholder='Time' />
-      <input type='text' placeholder='Number of Guests' />
-      <button type='button'>Make Reservation</button>
+      <input type='text' 
+        placeholder='Name' 
+        name='name'
+        onChange={(event) => handleForm(event)} />
+      <input type='text' 
+        placeholder='Date (MM/DD)' 
+        name='date' 
+        onChange={(event) => handleForm(event)} />
+      <input type='text' 
+        placeholder='Time' 
+        name='time' 
+        onChange={(event) => handleForm(event)} />
+      <input type='text' 
+        placeholder='Number of Guests' 
+        name='numGuests'
+        onChange={(event) => handleForm(event)} />
+      <button type='button'
+        onClick={makeReservation}>Make Reservation</button>
     </form>
   )
 }
