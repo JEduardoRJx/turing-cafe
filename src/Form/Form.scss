@@ -1,3 +1,26 @@
 form {
+  // background-color: blue;
   width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  height: 100%;
+  border: none;
+  width: 200px;
+  text-align: center;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+button {
+  height: 100%;
+  border: none;
+  width: 200px;
+  font-size: 1em;
+  border-radius: 5px;
+  background-color: #D2AA81;
+  font-weight: bold;
 }
